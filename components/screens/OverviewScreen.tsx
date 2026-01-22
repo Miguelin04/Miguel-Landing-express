@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { PROBLEMS } from '../../constants';
+import profileImage from '../../img/imagen fondo .jpeg';
 
 interface OverviewScreenProps {
   onNext: () => void;
@@ -17,7 +18,7 @@ const OverviewScreen: React.FC<OverviewScreenProps> = ({ onNext, onBack, onShare
             <div className="absolute inset-0 bg-primary/20 rounded-full scale-125 blur-3xl opacity-40"></div>
             <div 
               className="relative bg-center bg-no-repeat aspect-square bg-cover rounded-3xl h-48 w-48 md:h-64 md:w-64 border-8 border-white dark:border-gray-800 shadow-2xl mx-auto"
-              style={{ backgroundImage: 'url("https://picsum.photos/seed/miguel-pro/400/400")' }}
+              style={{ backgroundImage: `url(${profileImage})` }}
             ></div>
             <div className="absolute -bottom-2 -right-2 bg-accent-gold text-white p-4 rounded-2xl shadow-lg flex items-center justify-center">
               <span className="material-symbols-outlined text-2xl font-bold">star</span>

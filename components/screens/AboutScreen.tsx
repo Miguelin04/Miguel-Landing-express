@@ -87,17 +87,17 @@ const AboutScreen: React.FC<AboutScreenProps> = ({ onNext, onBack }) => {
             </div>
             <div className="space-y-4">
               <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                Hola, soy Miguel. Me apasiona transformar ideas de negocio en activos digitales de alto rendimiento. Con más de 5 años de experiencia en el ecosistema WordPress, me he especializado en el uso de <span className="font-bold text-primary">Divi Builder</span> para crear Landing Pages que no solo se ven bien, sino que cumplen objetivos comerciales claros.
+                Hola, soy Miguel. Me apasiona transformar ideas de negocio en activos digitales de alto rendimiento. Con más de 2 años de experiencia en el ecosistema WordPress, me he especializado en el uso de <span className="font-bold text-primary">Divi Builder</span> para crear Landing Pages que no solo se ven bien, sino que cumplen objetivos comerciales claros.
               </p>
             </div>
             <div className="mt-6 pt-6 border-t border-primary/10 grid grid-cols-2 gap-4">
               <div className="flex flex-col">
                 <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Localización</span>
-                <span className="text-sm font-bold text-[#111518] dark:text-white">Madrid, España</span>
+                <span className="text-sm font-bold text-[#111518] dark:text-white">Ecuador, Loja</span>
               </div>
               <div className="flex flex-col">
                 <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Experiencia</span>
-                <span className="text-sm font-bold text-[#111518] dark:text-white">+100 Proyectos</span>
+                <span className="text-sm font-bold text-[#111518] dark:text-white">+10 Proyectos</span>
               </div>
             </div>
           </div>
