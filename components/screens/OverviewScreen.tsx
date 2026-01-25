@@ -55,9 +55,8 @@ const OverviewScreen: React.FC<OverviewScreenProps> = ({ onNext, onBack, onShare
 
           <div className="md:col-span-2 bg-white dark:bg-gray-900 rounded-[2.5rem] p-10 shadow-xl shadow-primary/5 border border-gray-100 dark:border-gray-800">
             <div className="mb-10">
-              <h3 className="text-3xl font-black tracking-tight text-gray-900 dark:text-white">Puntos de Dolor Comunes</h3>
-              <p className="text-gray-400 font-bold mt-2 text-sm uppercase tracking-widest">Lo que estamos resolviendo hoy</p>
-            </div>
+              <h3 className="text-3xl font-black tracking-tight text-gray-900 dark:text-white">Lo que vamos a resolver hoy</h3>
+              </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               {PROBLEMS.map((problem) => (
                 <div key={problem.id} className="flex items-start gap-5 group">

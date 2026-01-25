@@ -37,7 +37,6 @@ const ScopeScreen: React.FC<ScopeScreenProps> = ({ onNext, onBack }) => {
 
         <div className="px-4 mt-8">
           <h2 className="text-[#111518] dark:text-white tracking-tight text-2xl font-bold leading-tight">¿Qué incluye el servicio?</h2>
-          <p className="text-[#5e7687] dark:text-gray-400 text-sm mt-1">Detalle de las fases y entregables del proyecto.</p>
         </div>
 
         {/* Highlight Image Card */}

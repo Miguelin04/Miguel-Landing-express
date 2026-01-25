@@ -52,15 +52,15 @@ const ServicesScreen: React.FC<ServicesScreenProps> = ({ onNext }) => {
               </p>
             </div>
             
-            <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+            <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
               {results.map((res, i) => (
-                <div key={i} className="flex items-center gap-4 bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/10 hover:bg-white/15 transition-all">
-                  <div className="bg-accent-gold p-3 rounded-xl text-white flex items-center justify-center shadow-lg">
-                    <span className="material-symbols-outlined">{res.icon}</span>
+                <div key={i} className="flex flex-col items-start gap-6 bg-white/15 backdrop-blur-md p-8 rounded-3xl border-2 border-white/30 hover:bg-white/20 hover:border-white/50 transition-all group min-h-[220px]">
+                  <div className="bg-accent-gold p-4 rounded-xl text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                    <span className="material-symbols-outlined text-3xl">{res.icon}</span>
                   </div>
-                  <div>
-                    <h4 className="font-bold text-sm text-white">{res.title}</h4>
-                    <p className="text-[11px] text-white/60 font-medium">{res.desc}</p>
+                  <div className="flex-1">
+                    <h4 className="font-black text-lg text-white mb-2">{res.title}</h4>
+                    <p className="text-sm text-white/80 font-medium leading-relaxed">{res.desc}</p>
                   </div>
                 </div>
               ))}

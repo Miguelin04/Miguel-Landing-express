@@ -37,14 +37,13 @@ const AboutScreen: React.FC<AboutScreenProps> = ({ onNext, onBack }) => {
           }}
         >
           <div className="flex flex-col p-5">
-            <span className="text-white/80 text-xs font-bold uppercase tracking-widest mb-1">Estrategia & Diseño</span>
-            <p className="text-white text-3xl font-extrabold leading-tight">Diferenciales y Perfil</p>
+            <span className="text-white/80 text-xs font-bold uppercase tracking-widest mb-1">LANDING PREMIUM</span>
+            <p className="text-white text-3xl font-extrabold leading-tight">Estrategia & Diseño</p>
           </div>
         </div>
 
         <div className="flex flex-col pt-6 pb-2">
           <h2 className="text-primary dark:text-primary text-xs font-black uppercase tracking-[0.2em] mb-1">Por qué elegirme</h2>
-          <h3 className="text-[#111518] dark:text-white text-2xl font-bold leading-tight tracking-tight">Diferenciales de valor</h3>
         </div>
 
         <div className="grid grid-cols-1 gap-3 mt-4">
