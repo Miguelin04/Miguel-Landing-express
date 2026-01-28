@@ -44,7 +44,7 @@ const ScopeScreen: React.FC<ScopeScreenProps> = ({ onNext, onBack }) => {
           <div className="flex flex-col rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 overflow-hidden">
             <div 
               className="w-full bg-center bg-no-repeat aspect-[16/7] bg-cover"
-              style={{ backgroundImage: 'url("https://picsum.photos/seed/setup/600/300")' }}
+              style={{ backgroundImage: 'url("/img/miguel.png")', backgroundPosition: 'center bottom' }}
             ></div>
             <div className="p-5">
               <div className="flex items-center gap-2 mb-1">
