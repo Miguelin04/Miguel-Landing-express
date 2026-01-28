@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { PROBLEMS } from '../../constants';
-import profileImage from '../../img/fondo.jpeg';
+import profileImage from '../../img/perfil.jpeg';
 
 interface OverviewScreenProps {
   onNext: () => void;

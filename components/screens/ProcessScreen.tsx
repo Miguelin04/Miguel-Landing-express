@@ -68,9 +68,6 @@ const ProcessScreen: React.FC<ProcessScreenProps> = ({ onNext, onBack }) => {
             >
               <span className="truncate">Siguiente: Alcance</span>
             </button>
-            <button className="flex w-full cursor-pointer items-center justify-center rounded-lg h-10 border border-primary/20 bg-transparent text-primary dark:text-accent-gold text-sm font-medium">
-              <span className="truncate">Ver portafolio</span>
-            </button>
           </div>
         </div>
       </div>

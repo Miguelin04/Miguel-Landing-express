@@ -72,7 +72,7 @@ const AboutScreen: React.FC<AboutScreenProps> = ({ onNext, onBack }) => {
                 <img 
                   alt="Miguel profile" 
                   className="w-full h-full object-cover" 
-                  src="https://picsum.photos/seed/miguel-bio/200/200" 
+                  src="../../img/yo.png"
                 />
               </div>
               <div>
@@ -86,7 +86,7 @@ const AboutScreen: React.FC<AboutScreenProps> = ({ onNext, onBack }) => {
             </div>
             <div className="space-y-4">
               <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                Hola, soy Miguel. Me apasiona transformar ideas de negocio en activos digitales de alto rendimiento. Con más de 2 años de experiencia en el ecosistema WordPress, me he especializado en el uso de <span className="font-bold text-primary">Divi Builder</span> para crear Landing Pages que no solo se ven bien, sino que cumplen objetivos comerciales claros.
+                Hola, soy Miguel me apasiona transformar ideas de negocio en activos digitales de alto rendimiento. Con más de 2 años de experiencia en el ecosistema WordPress, me he especializado en el uso de <span className="font-bold text-primary">Divi Builder</span> para crear Landing Pages que no solo se ven bien, sino que cumplen objetivos comerciales claros.
               </p>
             </div>
             <div className="mt-6 pt-6 border-t border-primary/10 grid grid-cols-2 gap-4">
