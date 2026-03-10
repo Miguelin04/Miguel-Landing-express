@@ -106,7 +106,7 @@ const InvestmentScreen: React.FC<InvestmentScreenProps> = ({ onBack, onShare, no
             <div className="mt-12 flex items-center gap-6 p-8 rounded-[2rem] bg-primary/5 border border-primary/10">
               <div 
                 className="size-20 shrink-0 rounded-2xl bg-cover bg-center border-4 border-white dark:border-gray-800 shadow-xl"
-                style={{ backgroundImage: 'url("https://picsum.photos/seed/miguel-small/200/200")' }}
+                style={{ backgroundImage: 'url("/img/miguel.png")' }}
               ></div>
               <div className="flex-1">
                 <p className="text-[11px] font-black text-accent-gold uppercase tracking-widest mb-1">Compromiso Personal</p>
