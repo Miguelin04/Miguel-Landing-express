@@ -1,6 +1,5 @@
 
 import React from 'react';
-import profileImage from '../../img/yo.png';
 interface AboutScreenProps {
   onNext: () => void;
   onBack: () => void;
@@ -72,7 +71,7 @@ const AboutScreen: React.FC<AboutScreenProps> = ({ onNext, onBack }) => {
                 <img 
                   alt="Miguel profile" 
                   className="w-full h-full object-cover" 
-                  src={profileImage} 
+                  src="/img/yo.png" 
                 />
               </div>
               <div>
